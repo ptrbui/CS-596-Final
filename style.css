@@ -37,7 +37,7 @@
 
 /* Styling for the GIF container */
 #gif-container {
-    max-width: 400px; /* Limit the width of the GIF for a balanced look */
+    max-width: 650px; /* Limit the width of the GIF for a balanced look */
     margin: 20px auto; /* Center the GIF container and add spacing */
     padding: 16px; /* Add some padding for spacing */
     text-align: center; /* Center the GIF image */
