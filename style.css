@@ -1,0 +1,119 @@
+/* Styling for the title container */
+#blog-title {
+    max-width: 300px; /* Align with the paragraph box width */
+    margin: 0 auto; /* Center the title container */
+    padding: 16px 16px 8px; /* Add padding for spacing */
+    text-align: center; /* Center-align the text */
+    box-sizing: border-box;
+}
+
+/* Styling for the title text */
+#blog-title h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 25px;
+    color: #333;
+}
+
+/* Styling for the title text */
+#blog-title > h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 20px 0; /* Increased specificity and adjusted margin */
+    color: #333;
+}
+
+/* Styling for the author name */
+#blog-title .author-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200; /* Match the paragraph weight */
+    font-size: 12px; /* Match the paragraph font size */
+    color: #333; /* Match the text color */
+    text-align: center; /* Center the text */
+    margin: 5px 0 0; /* Add a small margin above and below */
+}
+
+/* Styling for the GIF container */
+#gif-container {
+    max-width: 400px; /* Limit the width of the GIF for a balanced look */
+    margin: 20px auto; /* Center the GIF container and add spacing */
+    padding: 16px; /* Add some padding for spacing */
+    text-align: center; /* Center the GIF image */
+    box-sizing: border-box;
+}
+
+/* Styling for the GIF image */
+#gif-container img {
+    width: 100%; /* Ensure the GIF fills the container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Add slight rounding for a softer look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+/* General styling for the blog container */
+#blog-container {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+#blog-container h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 40px;
+    padding: 0; /* Ensure no left or right padding */
+    color: #333;
+}
+
+/* Styling for paragraphs */
+#blog-container p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 17px;
+    text-align: justify;
+}
+
+#blog-container .subword {
+    text-decoration: underline;
+    font-weight: normal; /* Removes bold styling */
+    color: inherit; /* Ensure it matches other paragraph text */
+}
+
+/* Styling for unordered lists */
+#blog-container ul {
+    list-style-type: disc; /* Use a disc (default bullet) for unordered lists */
+    padding-left: 20px; /* Add padding to align bullets properly */
+    margin-bottom: 17px; /* Add spacing below the list */
+}
+
+/* Styling for list items */
+#blog-container ul li {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px; /* Match paragraph font size */
+    font-weight: 200; /* Match paragraph weight */
+    line-height: 1.6; /* Match paragraph line height */
+    color: #333; /* Match text color */
+    margin-bottom: 8px; /* Add spacing between list items */
+    text-align: justify; /* Justify the text for consistency */
+}
+
+/* General link styling for all colors */
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Matches surrounding text color */
+}
+
+/* Ensure proper behavior on very small screens */
+@media (max-width: 480px) {
+    #blog-title, #blog-container {
+        padding: 0 8px;
+    }
+}
